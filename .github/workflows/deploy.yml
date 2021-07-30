@@ -18,9 +18,12 @@ jobs:
           sudo npm install n -g 
           sudo n 14
           sudo apt purge -y nodejs npm
-      - name: npm build and deploy
+      - name: npm build
         run: |
           npm install
           npm run build
-          npm run deploy
-
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
