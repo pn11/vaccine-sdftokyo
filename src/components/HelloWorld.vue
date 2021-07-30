@@ -12,6 +12,7 @@
       <li>登録方法は <a href=https://qiita.com/aqril_1132/items/b5f9040ccb8cbc705d04>ブックマークレットの登録方法 - Qiita</a> などを参照してください。</li>
       <li>本ページで入力された情報はブラウザ内でのみ使用されます。このページのソースコードは<a href="https://github.com/pn11/vaccine-sdftokyo">こちら</a>です。</li>
     </ul>
+    <img alt="demo" src="../assets/demo.gif">
   </div>
 </template>
 
