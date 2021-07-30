@@ -14,10 +14,10 @@ jobs:
       - name: install npm
         run: |
           sudo apt update
-          apt install -y nodejs npm
-          npm install n -g 
-          n 14
-          apt purge -y nodejs npm
+          sudo apt install -y nodejs npm
+          sudo npm install n -g 
+          sudo n 14
+          sudo apt purge -y nodejs npm
       - name: npm build
         run: |
           npm install
