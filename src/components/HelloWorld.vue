@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <p>全て半角で入力してください</p>
+    <p>毎回情報を入力するのが面倒なので楽するためのやつです。全て半角で入力してください。</p>
     <p>市区町村コード: <input v-model="cityCode" placeholder="市区町村コード"></p>
     <p>接種券番号: <input v-model="couponNum" placeholder="接種券番号"></p>
     <p>生年月日: <input type="number" min="1901" max="2021" v-model="year" placeholder="年(西暦)">年<input type="number" min="1" max="12" v-model="month" placeholder="月">月<input min="1" max="31" type="number" v-model="day" placeholder="日">日</p>
